@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="570"
+    tools:context=".Fragments.Onboarding1Fragment">
+
+    <View
+        android:layout_weight="65"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        />
+
+    <ImageView
+        android:layout_weight="258"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:src="@mipmap/group"
+        />
+
+    <View
+        android:layout_weight="47"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        />
+
+    <TextView
+        android:layout_weight="63"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:autoSizeTextType="uniform"
+        android:autoSizeMaxTextSize="40dp"
+        android:textColor="#00b2ab"
+        android:textStyle="bold"
+        android:text="@string/privacy_and_security"
+        />
+
+    <View
+        android:layout_weight="36"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        />
+
+    <TextView
+        android:layout_weight="103"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center_horizontal"
+        android:autoSizeTextType="uniform"
+        android:autoSizeMaxTextSize="16sp"
+        android:textColor="#454e6c"
+        android:text="@string/prevention_of_spread"/>
+
+</LinearLayout>

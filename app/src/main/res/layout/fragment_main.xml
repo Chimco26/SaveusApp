@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.saveusapp.Fragments.MainFragment"
+    android:orientation="vertical"
+    android:background="#00b2ab"
+    android:weightSum="640">
+
+    <!-- TODO: Update blank fragment layout -->
+    <View
+        android:layout_weight="262"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        />
+
+    <ImageView
+        android:layout_weight="115"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:src="@mipmap/unplash"
+        />
+
+    <View
+        android:layout_weight="243"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        />
+    <TextView
+        android:id="@+id/tvLabel"
+        android:layout_weight="20"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        />
+
+</LinearLayout>

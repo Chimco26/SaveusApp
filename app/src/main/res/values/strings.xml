@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SaveusApp</string>
+    <string name="privacy_and_security">פרטיות וביטחון</string>
+    <string name="prevention_of_spread">מניעת התפשטות הקורונה היא <b> המטרה של כולנו</b>
+        \n \n עכשיו תוכלו לסייע באופן אקטיבי\n<b>ובלי חשש לפגיע בפרטיותכם</b>
+</string>
+    <string name="simple_and_fast">פשוט ומהיר</string>
+    <string name="notifications">התראות ועדכונים</string>
+    <string name="real_time_notification"><b>התראה בזמן אמת </b>תתקבל במצב בו דיווחתם על\n מיקומכם הנוכחי ויש עליו מידע מעודכן כאזור נגוע</string>
+    <string name="update_notification"><b>התראה מתעדכנת </b>תתקבל כאשר אחד מהמקומות\n שדיווחתם עליהם, בזמן אמת או בדיעבד,\n ידווח כאזור נגוע</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
